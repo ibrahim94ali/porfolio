@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "./Header";
-import Menunav from "./Menunav";
+import MenuNav from "./MenuNav";
 import styles from "../styles/Layout.module.scss";
 import { Hidden } from "@material-ui/core";
 
@@ -8,7 +8,7 @@ function Layout({ children }) {
   return (
     <>
       <Hidden mdUp>
-        <Menunav />
+        <MenuNav />
       </Hidden>
       <Hidden smDown>
         <Header />
