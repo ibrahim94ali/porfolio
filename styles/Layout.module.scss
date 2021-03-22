@@ -1,0 +1,12 @@
+@import "./constants.scss";
+
+.content {
+  display: flex;
+  flex: 1;
+  margin-left: 20rem;
+  padding: 2rem 3rem;
+
+  @media screen and (max-width: 959px) {
+    margin-left: 0;
+  }
+}

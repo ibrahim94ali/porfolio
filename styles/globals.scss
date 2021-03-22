@@ -1,0 +1,54 @@
+@import "./constants.scss";
+
+@mixin btn($pri, $sec) {
+  width: 13rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 1rem 2rem;
+  background-color: $pri;
+  color: $sec;
+  transition: all 0.3;
+  &:hover {
+    background-color: $color-red;
+    color: $color-white;
+  }
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+
+  background-color: $color-black;
+
+  font-size: 62.5%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.btn-primary {
+  @include btn($color-white, $color-black);
+}
+
+.btn-secondary {
+  @include btn($color-black, $color-white);
+}
