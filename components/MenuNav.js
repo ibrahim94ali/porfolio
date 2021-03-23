@@ -40,7 +40,7 @@ function MenuNav() {
         <Link href="/programming">
           <MenuItem onClick={handleClose}>Programming</MenuItem>
         </Link>
-        <Link href="/photograpy">
+        <Link href="/photography">
           <MenuItem onClick={handleClose}>Photography</MenuItem>
         </Link>
         <Link href="/digital-art">

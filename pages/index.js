@@ -33,7 +33,7 @@ export default function Home() {
         spacing={3}
         className={styles.cardsContainer}
       >
-        <Grid item>
+        <Grid item xs={12} sm={6} md={3}>
           <div className={styles.programmingCard}>
             <Link href="/programming">
               <button
@@ -45,7 +45,7 @@ export default function Home() {
             </Link>
           </div>
         </Grid>
-        <Grid item>
+        <Grid item xs={12} sm={6} md={3}>
           <div className={styles.photographyCard}>
             <Link href="/photography">
               <button
@@ -57,7 +57,7 @@ export default function Home() {
             </Link>
           </div>
         </Grid>
-        <Grid item>
+        <Grid item xs={12} sm={6} md={3}>
           <div className={styles.artworkCard}>
             <Link href="/digital-art">
               <button
@@ -69,7 +69,7 @@ export default function Home() {
             </Link>
           </div>
         </Grid>
-        <Grid item>
+        <Grid item xs={12} sm={6} md={3}>
           <div className={styles.poetryCard}>
             <Link href="/poetry">
               <button
