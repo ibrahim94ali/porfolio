@@ -35,7 +35,7 @@ function MenuNav() {
           <MenuItem onClick={handleClose}>About me</MenuItem>
         </Link>
         <Link href="/contact">
-          <MenuItem onClick={handleClose}>Contact</MenuItem>
+          <MenuItem onClick={handleClose}>Contact me</MenuItem>
         </Link>
         <Link href="/programming">
           <MenuItem onClick={handleClose}>Programming</MenuItem>
