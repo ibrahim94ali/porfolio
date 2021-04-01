@@ -1,10 +1,14 @@
 import styles from "../styles/Home.module.scss";
 import { Grid } from "@material-ui/core";
 import Link from "next/link";
+import Head from "next/head";
 
 export default function Home() {
   return (
     <div className={styles.container}>
+      <Head>
+        <title>Ibrahim Aliu</title>
+      </Head>
       <div className={styles.texts}>
         <h2>Welcome to my Personal Website</h2>
         <p>

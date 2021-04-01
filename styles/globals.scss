@@ -30,6 +30,10 @@ body {
   background-color: $color-black;
 
   font-size: 62.5%;
+
+  @media screen and (max-width: 768px) {
+    font-size: 37.5%;
+  }
 }
 
 a {

@@ -8,6 +8,11 @@
   align-items: center;
   padding: 2.5rem 10rem;
 
+  @media screen and (max-width: 768px) {
+    padding: 1rem;
+    flex-direction: column;
+  }
+
   .name {
     flex: 1;
     color: $color-secondary;
