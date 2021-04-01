@@ -1,28 +1,20 @@
 import styles from "../styles/Home.module.scss";
-import { Grid, Link } from "@material-ui/core";
+import { Grid } from "@material-ui/core";
+import Link from "next/link";
 
 export default function Home() {
   return (
     <div className={styles.container}>
-      <div className={styles.header}>
-        <div className={styles.headersContainer}>
-          <h1>Ibrahim Aliu</h1>
-          <h2>
-            Welcome to my page.
-            <br />
-            Choose what you want to learn about me below.
-          </h2>
-          <div>
-            <Link href="/about">
-              <button className="btn-primary">About me</button>
-            </Link>
-            <Link href="/contact">
-              <button className="btn-primary" style={{ marginLeft: "1rem" }}>
-                Contact me
-              </button>
-            </Link>
-          </div>
-        </div>
+      <div className={styles.texts}>
+        <h2>Welcome to my Personal Website</h2>
+        <p>
+          I deliver professional web and mobile apps using latest technologies
+          and best practices. <br />
+          I work as freelance photographer to capture the beauty. <br />
+          I create digital artworks combining multiple beauties and feelings in
+          one frame using Photoshop. <br />I like expressing my feelings in
+          poems (turkish only).
+        </p>
       </div>
 
       <Grid
@@ -33,53 +25,44 @@ export default function Home() {
         spacing={3}
         className={styles.cardsContainer}
       >
+        <Link href="/programming">
+          <Grid item xs={12} sm={6} md={3} className={styles.cardContainer}>
+            <div className={styles.bgImgProgramming} />
+            <span className={styles.title}>Programming</span>
+          </Grid>
+        </Link>
         <Grid item xs={12} sm={6} md={3}>
-          <div className={styles.programmingCard}>
-            <Link href="/programming">
-              <button
-                className={"btn-primary"}
-                style={{ marginBottom: "2rem" }}
-              >
-                Programming
-              </button>
-            </Link>
-          </div>
+          <a
+            className={styles.cardContainer}
+            href="https://500px.com/p/ibrahim94ali?view=photos"
+            target="_blank"
+            rel="noopener"
+          >
+            <div className={styles.bgImgPhotography} />
+            <span className={styles.title}>Photography</span>
+          </a>
         </Grid>
         <Grid item xs={12} sm={6} md={3}>
-          <div className={styles.photographyCard}>
-            <Link href="/photography">
-              <button
-                className={"btn-primary"}
-                style={{ marginBottom: "2rem" }}
-              >
-                Photography
-              </button>
-            </Link>
-          </div>
+          <a
+            className={styles.cardContainer}
+            href="https://instagram.com/ibrahim94aliph"
+            target="_blank"
+            rel="noopener"
+          >
+            <div className={styles.bgImgDigitalArt} />
+            <span className={styles.title}>Digital Art</span>
+          </a>
         </Grid>
         <Grid item xs={12} sm={6} md={3}>
-          <div className={styles.artworkCard}>
-            <Link href="/digital-art">
-              <button
-                className={"btn-primary"}
-                style={{ marginBottom: "2rem" }}
-              >
-                Digital Art
-              </button>
-            </Link>
-          </div>
-        </Grid>
-        <Grid item xs={12} sm={6} md={3}>
-          <div className={styles.poetryCard}>
-            <Link href="/poetry">
-              <button
-                className={"btn-primary"}
-                style={{ marginBottom: "2rem" }}
-              >
-                Poetry
-              </button>
-            </Link>
-          </div>
+          <a
+            className={styles.cardContainer}
+            href="https://www.instagram.com/explore/tags/ibrahim94ali"
+            target="_blank"
+            rel="noopener"
+          >
+            <div className={styles.bgImgPoetry} />
+            <span className={styles.title}>Poetry</span>
+          </a>
         </Grid>
       </Grid>
     </div>

@@ -1,9 +1,10 @@
 import React from "react";
+import styles from "../styles/Programming.module.scss";
 
 export default function Programming() {
   return (
-    <div>
-      <h1>Programming</h1>
+    <div className={styles.container}>
+      <h1 className={styles.title}>Programming</h1>
     </div>
   );
 }

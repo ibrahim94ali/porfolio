@@ -4,29 +4,43 @@ import styles from "../styles/Header.module.scss";
 
 function Header() {
   return (
-    <nav className={styles.container}>
+    <div className={styles.container}>
       <Link href="/">
-        <a>Welcome</a>
+        <h1 className={styles.name}>Ibrahim Aliu</h1>
       </Link>
-      <Link href="/about">
-        <a>About me</a>
-      </Link>
-      <Link href="/contact">
-        <a>Contact</a>
-      </Link>
-      <Link href="/programming">
-        <a>Programming</a>
-      </Link>
-      <Link href="/photography">
-        <a>Photography</a>
-      </Link>
-      <Link href="/digital-art">
-        <a>Digital Art</a>
-      </Link>
-      <Link href="/poetry">
-        <a>Poetry</a>
-      </Link>
-    </nav>
+      <nav className={styles.links}>
+        <Link href="/about">
+          <a className={styles.link}>About</a>
+        </Link>
+        <Link href="/programming">
+          <a className={styles.link}>Programming</a>
+        </Link>
+        <a
+          href="https://500px.com/p/ibrahim94ali?view=photos"
+          target="_blank"
+          rel="noopener"
+          className={styles.link}
+        >
+          <span>Photography</span>
+        </a>
+        <a
+          href="https://instagram.com/ibrahim94aliph"
+          target="_blank"
+          rel="noopener"
+          className={styles.link}
+        >
+          <span>Digital Art</span>
+        </a>
+        <a
+          href="https://www.instagram.com/explore/tags/ibrahim94ali"
+          target="_blank"
+          rel="noopener"
+          className={styles.link}
+        >
+          <span>Poetry</span>
+        </a>
+      </nav>
+    </div>
   );
 }
 
