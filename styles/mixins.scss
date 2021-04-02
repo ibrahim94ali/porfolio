@@ -1,0 +1,15 @@
+@import "./constants.scss";
+@mixin underline-on-hover($color) {
+  &::after {
+    content: "";
+    width: 0px;
+    height: 1px;
+    display: block;
+    background: $color;
+    transition: 0.2s;
+  }
+
+  &:hover::after {
+    width: 100%;
+  }
+}

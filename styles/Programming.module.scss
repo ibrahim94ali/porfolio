@@ -1,12 +1,97 @@
 @import "./constants.scss";
 
 .container {
-  display: flex;
-  flex-direction: column;
+  flex: 1;
   justify-content: center;
   align-items: center;
 
-  .title {
-    color: $color-white;
+  h2 {
+    font-family: Satisfy;
+    font-size: 2.8rem;
+    color: $color-primary;
+    margin: 0;
+  }
+
+  h3 {
+    font-family: Poppins;
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+    color: $color-primary;
+  }
+
+  .texts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    ul {
+      li {
+        font-family: Poppins;
+        font-size: 1.6rem;
+        line-height: 2.5rem;
+        color: $color-primary;
+      }
+    }
+  }
+
+  .skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+
+    .skillsContainer {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .skill {
+        position: relative;
+        width: 100%;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        span {
+          font-family: Satisfy;
+          color: $color-primary;
+          font-size: 2rem;
+        }
+        .skillFullLine {
+          height: 7px;
+          background: $color-gray;
+          border-radius: 1rem;
+          width: 100%;
+          position: absolute;
+          bottom: 0;
+          left: 0;
+        }
+        .skillLine {
+          height: 7px;
+          background: $color-primary;
+          border-radius: 1rem;
+          position: absolute;
+          z-index: 1;
+          bottom: 0;
+          left: 0;
+        }
+      }
+    }
+  }
+  .experience {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+  }
+  .projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
   }
 }

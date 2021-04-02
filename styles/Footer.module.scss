@@ -1,4 +1,5 @@
 @import "./constants.scss";
+@import "./mixins.scss";
 
 .container {
   background-color: $color-primary;
@@ -37,6 +38,7 @@
       font-size: 1.4rem;
       color: $color-secondary;
       margin-left: 1rem;
+      @include underline-on-hover($color-secondary);
     }
   }
 

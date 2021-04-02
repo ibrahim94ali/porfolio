@@ -11,14 +11,18 @@ export default function Home() {
       </Head>
       <div className={styles.texts}>
         <h2>Welcome to my Personal Website</h2>
-        <p>
-          I deliver professional web and mobile apps using latest technologies
-          and best practices. <br />
-          I work as freelance photographer to capture the beauty. <br />
-          I create digital artworks combining multiple beauties and feelings in
-          one frame using Photoshop. <br />I like expressing my feelings in
-          poems (turkish only).
-        </p>
+        <ul>
+          <li>
+            I deliver professional web and mobile apps using latest technologies
+            and best practices
+          </li>
+          <li>I work as freelance photographer to capture the beauty</li>
+          <li>
+            I create digital artworks combining multiple beauties and feelings
+            in one frame using Photoshop
+          </li>
+          <li>I like expressing my feelings in poems (turkish only)</li>
+        </ul>
       </div>
 
       <Grid

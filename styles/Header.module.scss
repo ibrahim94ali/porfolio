@@ -1,4 +1,5 @@
 @import "./constants.scss";
+@import "./mixins.scss";
 
 .container {
   background-color: $color-primary;
@@ -31,21 +32,9 @@
     .link {
       margin-left: 2rem;
       font-family: Poppins;
-      font-size: 1.8rem;
+      font-size: 1.6rem;
       color: $color-secondary;
-
-      &::after {
-        content: "";
-        width: 0px;
-        height: 1px;
-        display: block;
-        background: $color-secondary;
-        transition: 0.2s;
-      }
-
-      &:hover::after {
-        width: 100%;
-      }
+      @include underline-on-hover($color-secondary);
     }
   }
 }
