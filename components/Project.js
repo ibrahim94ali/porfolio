@@ -6,7 +6,9 @@ function Project({ project }) {
     <div className={styles.container}>
       <div className={styles.header}>
         <h3>{project.name}</h3>
-        <a>{project.link}</a>
+        <a href={project.link} target="_blank" rel="noopener">
+          {project.link}
+        </a>
       </div>
       <p>{project.info}</p>
       <ul>
