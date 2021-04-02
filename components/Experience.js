@@ -14,17 +14,19 @@ function Experience({ experience }) {
       </div>
       <p>{experience.info}</p>
       <ul>
-        {experience.responsibilities.map((res, i) => (
-          <li key={i}>{res}</li>
+        {experience.responsibilities.map((res) => (
+          <li key={res}>{res}</li>
         ))}
       </ul>
       <h3>Technologies</h3>
       <ul className={styles.techUl}>
-        {experience.technologies.map((tech) => (
-          <li className={styles.techLi} key={tech}>
-            {tech}
-          </li>
-        ))}
+        {experience.technologies
+          .sort((a, b) => (a > b ? 1 : -1))
+          .map((tech) => (
+            <li className={styles.techLi} key={`${experience.company}-${tech}`}>
+              {tech}
+            </li>
+          ))}
       </ul>
     </div>
   );

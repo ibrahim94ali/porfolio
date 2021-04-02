@@ -6,7 +6,7 @@ export default function Custom404() {
       <Head>
         <title>Page not found</title>
       </Head>
-      <h1 style={{ color: "white" }}>404 - Page Not Found</h1>
+      <h1>404 - Page Not Found</h1>
     </div>
   );
 }

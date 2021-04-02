@@ -12,7 +12,7 @@
     margin: 0;
   }
 
-  h3 {
+  .subtitle {
     font-family: Poppins;
     font-size: 1.6rem;
     line-height: 2.5rem;
@@ -58,6 +58,8 @@
           font-family: Satisfy;
           color: $color-primary;
           font-size: 2rem;
+          letter-spacing: 1px;
+          font-weight: bold;
         }
         .skillFullLine {
           height: 7px;

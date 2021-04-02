@@ -9,13 +9,20 @@ function Project({ project }) {
         <a>{project.link}</a>
       </div>
       <p>{project.info}</p>
+      <ul>
+        {project.responsibilities.map((res) => (
+          <li key={res}>{res}</li>
+        ))}
+      </ul>
       <h3>Technologies</h3>
       <ul className={styles.techUl}>
-        {project.technologies.map((pr) => (
-          <li className={styles.techLi} key={pr}>
-            {pr}
-          </li>
-        ))}
+        {project.technologies
+          .sort((a, b) => (a > b ? 1 : -1))
+          .map((pr) => (
+            <li className={styles.techLi} key={pr}>
+              {pr}
+            </li>
+          ))}
       </ul>
     </div>
   );
