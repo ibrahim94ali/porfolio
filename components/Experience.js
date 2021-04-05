@@ -20,7 +20,7 @@ function Experience({ experience }) {
           <li key={res}>{res}</li>
         ))}
       </ul>
-      <h3>Technologies</h3>
+      <h3 className={styles.techs}>Technologies</h3>
       <ul className={styles.techUl}>
         {experience.technologies
           .sort((a, b) => (a > b ? 1 : -1))
