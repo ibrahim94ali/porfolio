@@ -61,17 +61,12 @@ export default function Home() {
             <span className={styles.title}>Digital Art</span>
           </a>
         </Grid>
-        <Grid item xs={12} sm={6} md={3}>
-          <a
-            className={styles.cardContainer}
-            href="https://www.instagram.com/explore/tags/ibrahim94ali"
-            target="_blank"
-            rel="noopener"
-          >
+        <Link href="/damla-damla-ask">
+          <Grid item xs={12} sm={6} md={3} className={styles.cardContainer}>
             <div className={styles.bgImgPoetry} />
-            <span className={styles.title}>Poetry</span>
-          </a>
-        </Grid>
+            <span className={styles.title}>Damla Damla Ask</span>
+          </Grid>
+        </Link>
       </Grid>
     </div>
   );

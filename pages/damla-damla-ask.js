@@ -5,16 +5,33 @@ import ArrowLeft from "@material-ui/icons/ArrowLeft";
 import ArrowRight from "@material-ui/icons/ArrowRight";
 import { Button } from "@material-ui/core";
 
+import Router from "next/router";
+
 //worker
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
-function DamlaDamlaAsk() {
+function DamlaDamlaAsk({ query: { page } }) {
   const [numPages, setNumPages] = useState(null);
   const [pageNumber, setPageNumber] = useState(3);
 
   const onDocumentLoadSuccess = ({ numPages }) => {
     setNumPages(numPages);
   };
+
+  const updateQuery = (page) => {
+    Router.push({
+      pathname: "/damla-damla-ask",
+      query: { page: page },
+    });
+  };
+
+  useEffect(() => {
+    if (page) {
+      setPageNumber(+page);
+    } else {
+      updateQuery(3);
+    }
+  }, [page]);
 
   return (
     <div className={styles.container}>
@@ -33,14 +50,14 @@ function DamlaDamlaAsk() {
         </Document>
         <Button
           className={styles.arrowLeftBtn}
-          onClick={() => setPageNumber((prev) => prev - 1)}
+          onClick={() => updateQuery(pageNumber - 1)}
           disabled={pageNumber <= 1}
         >
           <ArrowLeft className={styles.arrow} />
         </Button>
         <Button
           className={styles.arrowRightBtn}
-          onClick={() => setPageNumber((prev) => prev + 1)}
+          onClick={() => updateQuery(pageNumber + 1)}
           disabled={pageNumber >= numPages}
         >
           <ArrowRight className={styles.arrow} />
@@ -49,5 +66,9 @@ function DamlaDamlaAsk() {
     </div>
   );
 }
+
+DamlaDamlaAsk.getInitialProps = ({ query }) => {
+  return { query };
+};
 
 export default DamlaDamlaAsk;
