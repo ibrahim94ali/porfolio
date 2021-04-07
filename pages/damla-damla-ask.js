@@ -10,16 +10,11 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 
 function DamlaDamlaAsk() {
   const [numPages, setNumPages] = useState(null);
-  const [pageNumber, setPageNumber] = useState(1);
+  const [pageNumber, setPageNumber] = useState(3);
 
   const onDocumentLoadSuccess = ({ numPages }) => {
     setNumPages(numPages);
   };
-
-  useEffect(() => {
-    const page = document.getElementById("mypage");
-    console.log(page);
-  }, []);
 
   return (
     <div className={styles.container}>
@@ -30,16 +25,11 @@ function DamlaDamlaAsk() {
       </span>
       <div className={styles.pdfContainer}>
         <Document
-          file="SH.pdf"
+          file="DDA.pdf"
           onLoadSuccess={onDocumentLoadSuccess}
           className={styles.document}
         >
-          <Page
-            pageNumber={pageNumber}
-            className={styles.page}
-            // width={window.innerWidth * 0.4}
-            scale={0.8}
-          />
+          <Page pageNumber={pageNumber} className={styles.page} />
         </Document>
         <Button
           className={styles.arrowLeftBtn}
