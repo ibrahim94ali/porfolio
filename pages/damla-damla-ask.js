@@ -4,13 +4,12 @@ import styles from "../styles/DamlaDamlaAsk.module.scss";
 import ArrowLeft from "@material-ui/icons/ArrowLeft";
 import ArrowRight from "@material-ui/icons/ArrowRight";
 import { Button } from "@material-ui/core";
-
-import Router from "next/router";
+import { useRouter } from "next/router";
 
 //worker
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
-function DamlaDamlaAsk({ query: { page } }) {
+function DamlaDamlaAsk() {
   const [numPages, setNumPages] = useState(null);
   const [pageNumber, setPageNumber] = useState(5);
 
@@ -18,18 +17,21 @@ function DamlaDamlaAsk({ query: { page } }) {
     setNumPages(numPages);
   };
 
+  const router = useRouter();
+
   const updateQuery = (page) => {
-    Router.push({
+    router.push({
       pathname: "/damla-damla-ask",
       query: { page: page },
     });
   };
 
   useEffect(() => {
+    const page = router?.query?.page;
     if (page) {
       setPageNumber(+page);
     }
-  }, [page]);
+  }, [router]);
 
   return (
     <div className={styles.container}>
@@ -64,9 +66,5 @@ function DamlaDamlaAsk({ query: { page } }) {
     </div>
   );
 }
-
-DamlaDamlaAsk.getInitialProps = async ({ query }) => {
-  return { query };
-};
 
 export default DamlaDamlaAsk;
