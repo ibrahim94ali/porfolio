@@ -20,7 +20,11 @@ function Footer() {
         target="_blank"
         rel="noopener"
       >
-        <EmailIcon color="secondary" className={styles.emailIcon} />
+        <EmailIcon
+          color="secondary"
+          className={styles.emailIcon}
+          fontSize="large"
+        />
         <span className={styles.email}>94ibrahimali@gmail.com</span>
       </a>
       <nav className={styles.links}>

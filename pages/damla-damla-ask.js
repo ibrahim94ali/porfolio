@@ -12,7 +12,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 
 function DamlaDamlaAsk({ query: { page } }) {
   const [numPages, setNumPages] = useState(null);
-  const [pageNumber, setPageNumber] = useState(3);
+  const [pageNumber, setPageNumber] = useState(5);
 
   const onDocumentLoadSuccess = ({ numPages }) => {
     setNumPages(numPages);
@@ -28,8 +28,6 @@ function DamlaDamlaAsk({ query: { page } }) {
   useEffect(() => {
     if (page) {
       setPageNumber(+page);
-    } else {
-      updateQuery(3);
     }
   }, [page]);
 
@@ -67,7 +65,7 @@ function DamlaDamlaAsk({ query: { page } }) {
   );
 }
 
-DamlaDamlaAsk.getInitialProps = ({ query }) => {
+DamlaDamlaAsk.getInitialProps = async ({ query }) => {
   return { query };
 };
 
