@@ -2,7 +2,11 @@
 .container {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  min-height: 100vh;
+  @media screen and (max-width: 768px) {
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
+  }
 }
 
 .content {
