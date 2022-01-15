@@ -182,7 +182,7 @@ export const projects = [
   },
   {
     name: "Prediction App for Return Items in Sales",
-    link: "https://github.com/ibrahim94ali/ListItYourself",
+    link: "https://github.com/ibrahim94ali/lfd_term_project",
     info: "This is a solution for a company where they can enter a sale and see if this sale will be returned back or not. The aim of this solution is to cut costs of the company for returns. Our solution uses annual data of sales and develops a system using Machine Learning models to predict the return of each sale in the future.",
     responsibilities: [
       "Getting big data from Kaggle",
