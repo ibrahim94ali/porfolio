@@ -29,12 +29,12 @@ function About() {
           </p>
           <p>This is what I love to do, and I do it in many forms.</p>
           <p>
-            Since my childhood, I have loved to read poems to big audiences.
-            After my personality growth, I began expressing my feelings and
-            thoughts in poems.
+            Since my childhood, I loved to read poems to big audiences. After my
+            personality growth, I began expressing my feelings and thoughts in
+            poems.
           </p>
           <p>
-            Then, in my teenage times I learnt Photoshop. I started to create
+            Then, in my teenage times I learned Photoshop. I started to create
             digital art with manipulating multiple photos in a single frame to
             produce the most visaually satisfying artwork.
           </p>

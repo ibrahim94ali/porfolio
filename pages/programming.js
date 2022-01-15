@@ -17,7 +17,7 @@ export default function Programming() {
       <div className={styles.texts}>
         <h2>Programming</h2>
         <h3 className={styles.subtitle}>
-          I have 4 years of experience in web and mobile development
+          I have 5 years of experience in web and mobile development
         </h3>
         <ul>
           <li>

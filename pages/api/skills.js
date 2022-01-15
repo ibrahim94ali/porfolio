@@ -1,43 +1,43 @@
 export const skills = [
   {
     name: "Javascript / Typescript",
-    skill: 90,
-  },
-  {
-    name: "Angular",
     skill: 95,
   },
   {
+    name: "Angular",
+    skill: 100,
+  },
+  {
     name: "React",
-    skill: 80,
+    skill: 90,
   },
   {
     name: "NextJS",
-    skill: 70,
+    skill: 95,
   },
   {
     name: "React Native",
-    skill: 85,
+    skill: 90,
   },
   {
     name: "Ionic",
-    skill: 90,
+    skill: 100,
   },
   {
     name: "NodeJs / ExpressJs",
-    skill: 70,
+    skill: 85,
   },
   {
     name: "Firebase",
-    skill: 60,
-  },
-  {
-    name: "MongoDB",
     skill: 90,
   },
   {
-    name: "PostreSQL",
-    skill: 40,
+    name: "MongoDB / NoSQL",
+    skill: 90,
+  },
+  {
+    name: "SQL",
+    skill: 60,
   },
   {
     name: "C++",
@@ -49,11 +49,11 @@ export const skills = [
   },
   {
     name: "Figma / Adobe XD",
-    skill: 90,
+    skill: 95,
   },
   {
     name: "Karma / Jasmine / Protractor",
-    skill: 60,
+    skill: 80,
   },
   {
     name: ".Net / .Net Core",
@@ -70,6 +70,14 @@ export const skills = [
   {
     name: "Python",
     skill: 50,
+  },
+  {
+    name: "Svelte",
+    skill: 75,
+  },
+  {
+    name: "Apollo",
+    skill: 80,
   },
 ];
 
