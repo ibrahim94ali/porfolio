@@ -79,6 +79,10 @@ export const skills = [
     name: "Apollo",
     skill: 80,
   },
+  {
+    name: "ChartJs",
+    skill: 90,
+  },
 ];
 
 const getSkills = (_, res) => {

@@ -4,7 +4,7 @@ export const projects = [
     info: "Stanislav is a cross platform mobile app for properties that can be rented or purchased.",
     responsibilities: [
       "Designing UI and UX using Figma",
-      "Creating a Database using Mongoose and MongoDB",
+      "Creating a Database using MongoDB",
       "Creating an API using ExpressJS, GraphQL, and Apollo",
       "Creating moobile app using React Native with Expo",
       "Supporting photo uploads of properties using Amazon S3 service",
@@ -34,13 +34,14 @@ export const projects = [
   {
     name: "Antep Baklava",
     link: "https://www.antepbaklava.mk",
-    info: "Antep Baklava is a sweet company that has shops more than 10 cities and multiple countries. This project contains a landing page and online shopping experience for users, and admin panel for company users. Company users can install a PWA to get notifications and better user experience.",
+    info: "Antep Baklava is a sweet company that has 20+ shops in more than 15 cities and multiple countries. This project contains a landing page and online shopping experience for users, and admin panel for company users. Customers can buy baklava online. Company users can install a PWA to get notifications and better user experience.",
     responsibilities: [
       "Designing pages in Figma",
       "Creating a landing page and a dashboard using NextJs",
       "Creating an API in ExpressJS and GraphQL",
       "Creating a Database using Mongoose and MongoDB",
       "Creating the platform as Progressing Web App",
+      "Sending notifications to company users after purchases",
       "Creating animations using Framer Motion",
       "Supporting mutli languages",
       "Deploying the website and API to Vercel",
@@ -64,10 +65,10 @@ export const projects = [
   {
     name: "TechStack",
     link: "https://technologystack.netlify.app",
-    info: "TechStack is a project where people can share the best recourses about technologies, and also for starters, where they can find the best links to start learning a technology.",
+    info: "TechStack is a project where people can share the best resources about technologies, and also for starters, where they can find the best links to start learning a technology.",
     responsibilities: [
       "Creating an API in ExpressJS and GraphQL",
-      "Creating a Database using Mongoose and MongoDB",
+      "Creating a Database using MongoDB",
       "Creating a Web App using Svelte",
       "Creating a Mobile App using React Native with Expo",
       "Designing the front-end using Figma",
@@ -95,6 +96,7 @@ export const projects = [
       "Designing UI/UX",
       "Implementing it in Angular 11",
       "Making responsive for both mobile and computer screens",
+      "Visualizing data using ChartJs",
       "Writing automated tests",
       "Deploying the app to Github Pages",
     ],
