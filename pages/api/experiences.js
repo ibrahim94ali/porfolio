@@ -1,6 +1,6 @@
 export const experiences = [
   {
-    company: "VMware Cloud Services Platform (CSP)",
+    company: "VMware Cloud Services (CSP)",
     link: "https://console.cloud.vmware.com",
     role: "Front-end Engineer",
     dates: "04.2021 - Ongoing",
