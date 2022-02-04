@@ -1,18 +1,21 @@
 export const projects = [
   {
-    name: "Stanislav (in progress ~95%)",
-    info: "Stanislav is a cross platform mobile app for properties that can be rented or purchased.",
+    name: "Stanislove",
+    link: "https://play.google.com/store/apps/details?id=com.ibrahimaliu.stanislove",
+    info: "Stanislove is a cross platform mobile app for finding you the best houses, apartments, villas, shops, lands for rent and for purchase in North Macedonia.",
     responsibilities: [
       "Designing UI and UX using Figma",
       "Creating a Database using MongoDB",
-      "Creating an API using ExpressJS, GraphQL, and Apollo",
+      "Creating an API using NodeJS, GraphQL, and Apollo Server",
       "Creating moobile app using React Native with Expo",
       "Supporting photo uploads of properties using Amazon S3 service",
       "Resizing and compressing uploading photos",
       "Supporting in memory caching using Apollo Client in mobile app",
       "Using Google Maps for listing properties, geocoding and reverse geocoding from address to geolocations",
       "Supporting i18n",
-      "Deploying API to Heroku",
+      "Creating a logo, assets, online content",
+      "Publishing on Play Store",
+      "Publishing on App Store",
     ],
     technologies: [
       "CSS3",
