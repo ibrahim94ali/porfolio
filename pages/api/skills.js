@@ -77,7 +77,7 @@ export const skills = [
   },
   {
     name: "Apollo",
-    skill: 80,
+    skill: 90,
   },
   {
     name: "ChartJs",
