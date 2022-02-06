@@ -7,7 +7,7 @@ function Project({ project }) {
       <div className={styles.header}>
         <h3>{project.name}</h3>
         {project.links.map((link) => (
-          <a href={project.link} target="_blank" rel="noopener" key={link}>
+          <a href={link} target="_blank" rel="noopener" key={link}>
             {link}
           </a>
         ))}
