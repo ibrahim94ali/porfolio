@@ -2,6 +2,7 @@ export const projects = [
   {
     name: "Stanislove",
     links: [
+      "https://www.stanislove.mk",
       "https://apps.apple.com/mk/app/stanislove/id1608443434",
       "https://play.google.com/store/apps/details?id=com.ibrahimaliu.stanislove",
     ],
@@ -10,7 +11,8 @@ export const projects = [
       "Designing UI and UX using Figma",
       "Creating a Database using MongoDB",
       "Creating an API using NodeJS, GraphQL, and Apollo Server",
-      "Creating moobile app using React Native with Expo",
+      "Creating a mobile app using React Native with Expo",
+      "Creating a web app with NextJs with a help of a template",
       "Supporting photo uploads of properties using Amazon S3 service",
       "Resizing and compressing uploading photos",
       "Supporting in memory caching using Apollo Client in mobile app",
