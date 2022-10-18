@@ -9,7 +9,7 @@ export const skills = [
   },
   {
     name: "React",
-    skill: 90,
+    skill: 100,
   },
   {
     name: "NextJS",
@@ -17,7 +17,7 @@ export const skills = [
   },
   {
     name: "React Native",
-    skill: 90,
+    skill: 100,
   },
   {
     name: "Ionic",
@@ -73,7 +73,7 @@ export const skills = [
   },
   {
     name: "Svelte",
-    skill: 75,
+    skill: 80,
   },
   {
     name: "Apollo",

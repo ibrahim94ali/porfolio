@@ -1,9 +1,35 @@
 export const experiences = [
   {
+    company: "Avantstay",
+    link: "https://avantstay.com/",
+    role: "Senior Software Engineer",
+    dates: "04.2022 - Ongoing",
+    info: "AvantStay is a premier next-generation hospitality platform for short-term rental experiences in USA.",
+    responsibilities: [
+      "Working in the mobile app project (cross-platform)",
+      "Creating new features and improving existing features in mobile app using React Native (Expo bare-flow)",
+      "Managing both applications for IOS and Android",
+      "Publishing new releases",
+      "Managing stores",
+      "Fixing important things by over-the-air updates",
+      "Writing unit tests",
+      "Reviewing Front End mobile code",
+    ],
+    technologies: [
+      "React Native",
+      "Expo",
+      "Typescript",
+      "Javascript",
+      "Jest",
+      "GraphQL",
+      "Styled Components",
+    ],
+  },
+  {
     company: "VMware Cloud Services (CSP)",
     link: "https://console.cloud.vmware.com",
     role: "Front-end Engineer",
-    dates: "04.2021 - Ongoing",
+    dates: "04.2021 - 04.2022",
     info: "VMware Cloud Services Platform is the plaform for services that enable you to integrate, manage, and secure applications on cloud resources. These services work for any cloud service using VMware and can help you centralize the management and maintenance of hybrid or multi-cloud environments.",
     responsibilities: [
       "Working with an engineering team of 20 members in Front End and hundreds of people to communicate (BE, Testers, Designers, Managers, Accessability team, Other teams)",
