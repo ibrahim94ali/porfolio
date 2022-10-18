@@ -57,7 +57,7 @@ export const experiences = [
     company: "Musala Soft",
     link: "https://www.musala.com",
     role: "Software Engineer",
-    dates: "02.2021 - Ongoing",
+    dates: "02.2021 - 04.22",
     info: "Musala Soft is a leading company known for its solutions to many internationally well-known clients.",
     responsibilities: [
       "Extending skills area",
