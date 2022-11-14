@@ -9,6 +9,8 @@ import { projects } from "./api/projects";
 import { experiences } from "./api/experiences";
 
 export default function Programming() {
+  const currentYear = new Date().getFullYear()
+
   return (
     <div className={styles.container}>
       <Head>
@@ -17,7 +19,7 @@ export default function Programming() {
       <div className={styles.texts}>
         <h2>Programming</h2>
         <h3 className={styles.subtitle}>
-          I have 5 years of experience in web and mobile development
+          I have {currentYear - 2017} years of experience in web and mobile development
         </h3>
         <ul>
           <li>
