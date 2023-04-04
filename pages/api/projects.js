@@ -71,6 +71,26 @@ export const projects = [
     ],
   },
   {
+    name: "UrbanGym Admin Panel",
+    links: [],
+    info: "UrbanGym Admin Panel is a platform designed for this gym to store their customers' subscriptions",
+    responsibilities: [
+      "Implementing it in React",
+      "Using Firebase as Backend",
+      "Making responsive for both mobile and web screens",
+      "Creating it as PWA",
+      "Deploying the app",
+    ],
+    technologies: [
+      "CSS3",
+      "HTML5",
+      "Typescript",
+      "React",
+      "Tailwind",
+      "Firebase"
+    ],
+  },
+  {
     name: "TechStack",
     links: ["https://technologystack.netlify.app"],
     info: "TechStack is a project where people can share the best resources about technologies, and also for starters, where they can find the best links to start learning a technology.",

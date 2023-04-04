@@ -31,14 +31,9 @@ function Header() {
         >
           <span>Digital Art</span>
         </a>
-        <a
-          href="https://www.instagram.com/explore/tags/ibrahim94ali"
-          target="_blank"
-          rel="noopener"
-          className={styles.link}
-        >
-          <span>Poetry</span>
-        </a>
+        <Link href="/damla-damla-ask">
+        <a className={styles.link}>Damla Damla Ask</a>
+        </Link>
       </nav>
     </div>
   );

@@ -16,12 +16,10 @@ export default function Home() {
             I deliver professional web and mobile apps using latest technologies
             and best practices
           </li>
-          <li>I work as freelance photographer to capture the beauty</li>
+          <li>I am a freelance photographer</li>
           <li>
-            I create digital artworks combining multiple beauties and feelings
-            in one frame using Photoshop
+            I create digital artworks using Photoshop
           </li>
-          <li>I like expressing my feelings in poems (turkish only)</li>
         </ul>
       </div>
 
