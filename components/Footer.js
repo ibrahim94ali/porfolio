@@ -52,7 +52,7 @@ function Footer() {
           <GithubIcon color="secondary" className={styles.socialIcon} />
         </a>
         <a
-          href="https://drive.google.com/file/d/1P2EE7GLHBV1BSSldbrCo6CPEn4s9hGfQ/view"
+          href="https://drive.google.com/file/d/1vPXzhET34DQl0aRutV7loIXqxl-DoLcR/view"
           target="_blank"
           rel="noopener"
           className={styles.socialLink}

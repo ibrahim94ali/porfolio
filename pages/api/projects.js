@@ -2,9 +2,9 @@ export const projects = [
   {
     name: "Stanislove",
     links: [
-      "https://www.stanislove.mk",
       "https://apps.apple.com/mk/app/stanislove/id1608443434",
       "https://play.google.com/store/apps/details?id=com.ibrahimaliu.stanislove",
+      "https://stanislove-web.vercel.app/",
     ],
     info: "Stanislove is a cross platform mobile app for finding you the best houses, apartments, villas, shops, lands for rent and for purchase in North Macedonia.",
     responsibilities: [
@@ -86,7 +86,7 @@ export const projects = [
       "Typescript",
       "React",
       "Tailwind",
-      "Firebase"
+      "Firebase",
     ],
   },
   {

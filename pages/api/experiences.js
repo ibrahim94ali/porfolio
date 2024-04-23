@@ -1,17 +1,21 @@
 export const experiences = [
   {
     company: "LuckyCrush",
-    link: "https://www.luckycrush.live/",
+    links: [
+      "https://apps.apple.com/app/luckycrush-live-video-chat/id1658547073",
+      "https://play.google.com/store/apps/details?id=com.luckycrush.app",
+      "https://www.luckycrush.live/",
+    ],
     role: "Senior Software Engineer",
-    dates: "12.2022 - Ongoing",
-    info: "LuckyCrush is a platform to make users have 1-1 videocalls with random people.",
+    dates: "01.2023 - Ongoing",
+    info: "LuckyCrush is an online platform where users can engage in video calls with either specific or randomly matched individuals.",
     responsibilities: [
-      "Created the mobile app from scratch using React Native",
+      "Created the mobile app from scratch using React Native (Expo bare-flow)",
       "Created Gitlab pipeline to auto build and auto submit from master to stores via Eas Build",
-      "Implemented videocall feature using Voyage OpenTok library",
+      "Implemented videocall feature using Voyage OpenTok library and Livekit",
+      "Managed both Apple App Store and Google Play Store",
       "Implemented In-app Purchases for Play Store and App Store",
-      "Added strings in Lokalize to support multi languages",
-      "Managed both stores",
+      "Supported multi languages using Localise",
     ],
     technologies: [
       "React Native",
@@ -20,14 +24,17 @@ export const experiences = [
       "Javascript",
       "Styled Components",
       "Voyage Opentok",
-      "Gitlab pipelines"
+      "Livekit",
+      "Gitlab pipelines",
+      "App Store",
+      "Play Store",
     ],
   },
   {
     company: "Avantstay",
-    link: "https://avantstay.com/",
+    links: ["https://avantstay.com/"],
     role: "Senior Software Engineer",
-    dates: "04.2022 - 12.2022",
+    dates: "04.2022 - 11.2022",
     info: "AvantStay is a premier next-generation hospitality platform for short-term rental experiences in USA.",
     responsibilities: [
       "Worked in the mobile app project (cross-platform)",
@@ -47,11 +54,13 @@ export const experiences = [
       "Jest",
       "GraphQL",
       "Styled Components",
+      "App Store",
+      "Play Store",
     ],
   },
   {
     company: "VMware Cloud Services (CSP)",
-    link: "https://console.cloud.vmware.com",
+    links: ["https://console.cloud.vmware.com"],
     role: "Front-end Engineer",
     dates: "04.2021 - 04.2022",
     info: "VMware Cloud Services Platform is the plaform for services that enable you to integrate, manage, and secure applications on cloud resources. These services work for any cloud service using VMware and can help you centralize the management and maintenance of hybrid or multi-cloud environments.",
@@ -79,7 +88,7 @@ export const experiences = [
   },
   {
     company: "Symanto",
-    link: "https://www.symanto.com",
+    links: ["https://www.symanto.com"],
     role: "Front-end Engineer",
     dates: "01.2020 - 02.2021",
     info: "Symanto has its own product which is an AI-based solution for customers to analyze their plain data and get fancy results. Customers can upload their own data, also they can create collectors to collect data from other websites. After the data is collected and analyzed, customers can use the charts and tables to understand what categories/topics are the most popular, whether they include positive sentiments or negative sentiments, compare topics and brands, see timelines of data, etc. In addition, to increase the analysis, they can interact with texts to select words in order to create and edit topics and sentiments with them and rerun the project again with improved dictionaries. Management company users can edit customers, projects, dictionaries, clusters, crawlers, etc. They can improve dictionary qualities with inline-editing tools, miller columns, token-based tables etc.",
@@ -111,7 +120,7 @@ export const experiences = [
   },
   {
     company: "Bus2Go",
-    link: "https://www.bus2go.mk",
+    links: ["https://www.bus2go.mk"],
     role: "Full Stack Engineer",
     dates: "09.2017 - 02.2021",
     info: "Bus2Go is a platform where customers can purchase bus tickets online by using 3D secure payment in the web or in the mobile app and use the QR codes for their tickets. Bus drivers can validate tickets by using the mobile app and camera of their phones to scan QR codes. Bus companies can also CRUD routes, timetables, prices, etc",
