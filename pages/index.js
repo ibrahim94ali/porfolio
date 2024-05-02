@@ -17,9 +17,7 @@ export default function Home() {
             and best practices
           </li>
           <li>I am a freelance photographer</li>
-          <li>
-            I create digital artworks using Photoshop
-          </li>
+          <li>I create digital artworks using Photoshop</li>
         </ul>
       </div>
 
@@ -40,7 +38,7 @@ export default function Home() {
         <Grid item xs={12} sm={6} md={3}>
           <a
             className={styles.cardContainer}
-            href="https://500px.com/p/ibrahim94ali?view=photos"
+            href="https://instagram.com/icapture.prod"
             target="_blank"
             rel="noopener"
           >
