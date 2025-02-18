@@ -9,7 +9,7 @@ import { projects } from "./api/projects";
 import { experiences } from "./api/experiences";
 
 export default function Programming() {
-  const currentYear = new Date().getFullYear()
+  const currentYear = new Date().getFullYear();
 
   return (
     <div className={styles.container}>
@@ -19,22 +19,19 @@ export default function Programming() {
       <div className={styles.texts}>
         <h2>Programming</h2>
         <h3 className={styles.subtitle}>
-          I have {currentYear - 2017} years of experience in web and mobile development
+          A highly skilled <strong> software engineer </strong> with{" "}
+          {currentYear - 2018}+ years of experience in{" "}
+          <strong>web and mobile development.</strong>
+          <br />
+          Proficient in libraries like{" "}
+          <strong> React, Angular, React Native, and Node.js.</strong>
+          <br />
+          Passionate about building high-quality, scalable, and user-friendly
+          solutions.
+          <br />
+          What sets me apart is my{" "}
+          <strong>ability to quickly integrate into teams and projects.</strong>
         </h3>
-        <ul>
-          <li>
-            <b>Design:</b> Designing user friendly, good looking, responsive
-            interfaces
-          </li>
-          <li>
-            <b>Front-end:</b> Implementing the designs for web and mobile
-            platforms
-          </li>
-          <li>
-            <b>Back-end:</b> Creating API’s, back-end logic, designing Database
-            models
-          </li>
-        </ul>
       </div>
       <div className={styles.skills}>
         <h2>Skills</h2>
@@ -47,7 +44,7 @@ export default function Programming() {
           className={styles.cardsContainer}
         >
           {skills
-            .sort((a, b) => (a.name > b.name ? 1 : -1))
+            .sort((a, b) => (a.skill < b.skill ? 1 : -1))
             .map((skill) => (
               <Grid
                 item

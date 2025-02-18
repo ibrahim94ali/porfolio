@@ -13,47 +13,66 @@ function About() {
         <div className={styles.textContainer}>
           <h1>About Me</h1>
           <p>
-            I am <b>Ibrahim Aliu</b>, a computer engineer who has specializied
-            in creating web and mobile applications.
+            I’m <strong>Ibrahim Aliu</strong>, a{" "}
+            <strong>computer engineer</strong> with a passion for crafting{" "}
+            <strong>web and mobile applications</strong> that seamlessly blend
+            functionality with aesthetics.
           </p>
+
           <p>
-            <b>
-              I have spent all my time and effort to process my thoughts and
-              work, and then present it in the most beautiful way for other
-              people.
-            </b>
+            My journey has been shaped by a relentless pursuit of turning ideas
+            into tangible experiences. Every project I undertake is an
+            opportunity to refine my thoughts, transform them into meaningful
+            work, and present them in the most compelling way possible.
           </p>
+
           <p>
-            I like to think of me as a complex system to combine multiple inputs
-            and produce my own output.
+            I like to think of myself as a <strong>complex system</strong>,
+            constantly processing multiple inputs—experiences, knowledge, and
+            creativity—to produce something uniquely my own. This is not just
+            what I do; it’s what I love.
           </p>
-          <p>This is what I love to do, and I do it in many forms.</p>
+
+          <h2>A Journey Through Creativity</h2>
           <p>
-            Since my childhood, I loved to read poems to big audiences. After my
-            personality growth, I began expressing my feelings and thoughts in
-            poems.
+            Since childhood, I have been drawn to{" "}
+            <strong>artistic expression</strong> in various forms. My love for
+            poetry led me to recite to large audiences, giving voice to emotions
+            and ideas that resonated deeply. As I grew, this passion evolved
+            into writing my own poetry, capturing thoughts in lyrical form.
           </p>
+
           <p>
-            Then, in my teenage times I learned Photoshop. I started to create
-            digital art with manipulating multiple photos in a single frame to
-            produce the most visaually satisfying artwork.
+            During my teenage years, I discovered <strong>digital art</strong>{" "}
+            through <strong>Photoshop</strong>, where I explored the power of
+            blending multiple images to create visually captivating
+            compositions. When I got my first <strong>camera</strong>, I fell in
+            love with <strong>photography</strong>, focusing on capturing the
+            beauty of a moment and refining it through meticulous{" "}
+            <strong>post-processing</strong>.
           </p>
+
           <p>
-            When I got a camera, I started enjoying to capture the beauty in a
-            frame and pay attention to details in photoshoot and then in
-            postprocessing.
+            Creativity, attention to detail, and a deep appreciation for
+            craftsmanship define everything I do. I believe that the smallest
+            details are what truly make a creation shine.
           </p>
+
+          <h2>Engineering as an Art Form</h2>
           <p>
-            <b>
-              I love doing things that require creativity, wit and spending time
-              in details, because little details are what makes it shine.
-            </b>
+            My love for problem-solving and innovation led me to{" "}
+            <strong>computer engineering</strong>, a field where I can challenge
+            myself daily with <strong>complex problems</strong> that require
+            analytical thinking and creativity. Through coding, I bring
+            structure to ideas, design intuitive user experiences, and
+            continuously refine my skills to build better systems—both in
+            software and in life.
           </p>
+
           <p>
-            I chose to study computer engineering where I can push myself more
-            to solve new and complex problems everyday. This way, I am getting
-            to improve my system more and it helps me in other fields of life
-            too.
+            For me, engineering is not just about writing code; it’s about
+            creating, refining, and constantly evolving. And that’s exactly what
+            I strive to do every day.
           </p>
         </div>
       </div>

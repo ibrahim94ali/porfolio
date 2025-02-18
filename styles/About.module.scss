@@ -16,6 +16,13 @@
     text-align: center;
   }
 
+  h2 {
+    color: $color-primary;
+    font-size: 2rem;
+    font-family: Satisfy;
+    text-align: center;
+  }
+
   .profilePhoto {
     display: flex;
     background-image: url("../public/profile.jpg");

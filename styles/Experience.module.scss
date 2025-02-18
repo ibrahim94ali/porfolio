@@ -41,12 +41,16 @@
       justify-content: center;
       align-items: center;
 
-      a {
-        font-family: Poppins;
-        font-size: 1.4rem;
-        color: $color-primary;
-        cursor: pointer;
-        @include underline-on-hover($color-primary);
+      .linksContainer {
+        display: flex;
+        gap: 2rem;
+        a {
+          font-family: Poppins;
+          font-size: 1.4rem;
+          color: $color-primary;
+          cursor: pointer;
+          @include underline-on-hover($color-primary);
+        }
       }
     }
   }

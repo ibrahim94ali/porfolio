@@ -6,11 +6,13 @@ function Project({ project }) {
     <div className={styles.container}>
       <div className={styles.header}>
         <h3>{project.name}</h3>
-        {project.links.map((link) => (
-          <a href={link} target="_blank" rel="noopener" key={link}>
-            {link}
-          </a>
-        ))}
+        <div className={styles.linksContainer}>
+          {project.links.map((link) => (
+            <a href={link.link} target="_blank" rel="noopener" key={link.label}>
+              {link.label}
+            </a>
+          ))}
+        </div>
       </div>
       <p>{project.info}</p>
       <ul>

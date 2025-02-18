@@ -8,11 +8,18 @@ function Experience({ experience }) {
         <span>{experience.role}</span>
         <div className={styles.titleContainer}>
           <h3>{experience.company}</h3>
-          {experience.links.map((link) => (
-            <a href={link} target="_blank" rel="noopener" key={link}>
-              {link}
-            </a>
-          ))}
+          <div className={styles.linksContainer}>
+            {experience.links.map((link) => (
+              <a
+                href={link.link}
+                target="_blank"
+                rel="noopener"
+                key={link.label}
+              >
+                {link.label}
+              </a>
+            ))}
+          </div>
         </div>
         <span>{experience.dates}</span>
       </div>
