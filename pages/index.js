@@ -13,11 +13,14 @@ export default function Home() {
         <h2>Welcome to my Personal Website</h2>
         <ul>
           <li>
-            I deliver professional web and mobile apps using latest technologies
-            and best practices
+            I develop high-quality web and mobile applications using the latest
+            technologies and industry best practices.
           </li>
-          <li>I am a freelance photographer</li>
-          <li>I create digital artworks using Photoshop</li>
+          <li>
+            I am a freelance photographer with a passion for capturing
+            compelling visuals.
+          </li>
+          <li>I create visually engaging digital artworks using Photoshop.</li>
         </ul>
       </div>
 
