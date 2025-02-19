@@ -48,16 +48,16 @@
       cursor: pointer;
 
       .bgImgProgramming {
-        @include cardWithBgImage("../public/programming.jpg");
+        @include cardWithBgImage("../public/programming.webp");
       }
       .bgImgPhotography {
-        @include cardWithBgImage("../public/photography.jpg");
+        @include cardWithBgImage("../public/photography.webp");
       }
       .bgImgDigitalArt {
-        @include cardWithBgImage("../public/artwork.jpg");
+        @include cardWithBgImage("../public/artwork.webp");
       }
       .bgImgPoetry {
-        @include cardWithBgImage("../public/poetry.jpg");
+        @include cardWithBgImage("../public/poetry.webp");
       }
 
       .title {
