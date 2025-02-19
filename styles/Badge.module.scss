@@ -1,0 +1,16 @@
+@import "./constants.scss";
+@import "./mixins.scss";
+
+.container {
+  @include underline-on-hover($color-primary);
+
+  margin: 2rem 0;
+
+  border-bottom: 1px solid $color-primary;
+
+  a {
+    font-family: Poppins;
+    font-size: 2rem;
+    color: $color-primary;
+  }
+}

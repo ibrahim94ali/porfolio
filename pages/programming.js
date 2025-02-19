@@ -7,6 +7,7 @@ import styles from "../styles/Programming.module.scss";
 import { skills } from "./api/skills";
 import { projects } from "./api/projects";
 import { experiences } from "./api/experiences";
+import Badge from "../components/Badge";
 
 export default function Programming() {
   const currentYear = new Date().getFullYear();
@@ -18,6 +19,11 @@ export default function Programming() {
       </Head>
       <div className={styles.texts}>
         <h2>Programming</h2>
+        <div className={styles.badgesContainer}>
+          <Badge label={"Skills"} link={"#skills"} />
+          <Badge label={"Experiences"} link={"#experience"} />
+          <Badge label={"Projects"} link={"#projects"} />
+        </div>
         <h3 className={styles.subtitle}>
           A highly skilled <strong> software engineer </strong> with{" "}
           {currentYear - 2018}+ years of experience in{" "}
@@ -33,7 +39,7 @@ export default function Programming() {
           <strong>ability to quickly integrate into teams and projects.</strong>
         </h3>
       </div>
-      <div className={styles.skills}>
+      <div className={styles.skills} id="#skills">
         <h2>Skills</h2>
         <Grid
           container
@@ -66,13 +72,13 @@ export default function Programming() {
             ))}
         </Grid>
       </div>
-      <div className={styles.experience}>
+      <div className={styles.experience} id="experience">
         <h2>Experiences</h2>
         {experiences.map((experience) => (
           <Experience experience={experience} key={experience.company} />
         ))}
       </div>
-      <div className={styles.projects}>
+      <div className={styles.projects} id="projects">
         <h2>Projects</h2>
         {projects.map((project) => (
           <Project project={project} key={project.name} />

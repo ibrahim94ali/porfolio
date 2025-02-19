@@ -8,6 +8,9 @@
   justify-content: space-between;
   align-items: center;
   padding: 1.5rem 10rem;
+  position: fixed;
+  margin-bottom: 5rem;
+  z-index: 2;
 
   @media screen and (max-width: 768px) {
     padding: 1rem;

@@ -45,7 +45,7 @@ export const skills = [
   },
   {
     name: "Adobe Photoshop",
-    skill: 100,
+    skill: 99,
   },
   {
     name: "Figma / Adobe XD",

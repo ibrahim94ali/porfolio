@@ -6,11 +6,11 @@
   // min-height: -webkit-fill-available;
   .content {
     flex: 1;
-    padding: 2rem 10rem;
+    padding: 10rem 10rem 2rem;
     background-color: $color-secondary;
 
     @media screen and (max-width: 768px) {
-      padding: 2rem 3rem;
+      padding: 16rem 3rem 2rem;
     }
   }
 }
